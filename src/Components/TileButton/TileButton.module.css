@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+.button {
+  background: none;
+  border: none;
+
+  padding: 15px 25px;
+  cursor: pointer;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: "Lato", sans-serif;
+  transition: background 0.2s;
+}
+
+.button:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+.button__active {
+  background-color: red;
+}
+
+.button__inactive {
+}
+
+.button_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
